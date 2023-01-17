@@ -1,0 +1,46 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.juego {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.juego div {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.playAgain {
+  background-color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
